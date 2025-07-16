@@ -217,7 +217,7 @@ english_num = [
     english_num_10]
 
 # 특수문자 변 필요.
-english_math_1 = {'english' : '+', 'number' : 1, 'braille' : [[0, 0, 0, 0, 1, 0]]}
+english_math_1 = {'english' : '+', 'number' : 1, 'braille' : [[0, 1, 1, 0, 1, 0]]}
 english_math_2 = {'english' : '-', 'number' : 1, 'braille' : [[0, 0, 1, 0, 0, 1]]}
 english_math_3 = {'english' : '*', 'number' : 1, 'braille' : [[0, 1, 1, 0, 0, 1]]}
 english_math_4 = {'english' : '.', 'number' : 1, 'braille' : [[0, 1, 0, 0, 1, 1]]}
