@@ -318,13 +318,265 @@ english_indic = [
     english_indic_8,
     english_indic_9]
 
-# Currency
-english_curr_1 = {'english' : '??', 'number' : 1, 'braille' : [[1, 1, 1, 0, 0, 0]]}
-english_curr_2 = {'english' : '??', 'number' : 1, 'braille' : [[1, 0, 0, 0, 1, 0]]}
-english_curr_3 = {'english' : '??', 'number' : 1, 'braille' : [[0, 1, 1, 1, 0, 0]]}
-english_curr_4 = {'english' : '??', 'number' : 1, 'braille' : [[1, 0, 0, 1, 0, 0]]}
+# Currency 
+english_curr_1 = {'english' : '£', 'number' : 1, 'braille' : [[1, 1, 1, 0, 0, 0]]}
+english_curr_2 = {'english' : '€', 'number' : 1, 'braille' : [[1, 0, 0, 0, 1, 0]]}
+english_curr_3 = {'english' : '$', 'number' : 1, 'braille' : [[0, 1, 1, 1, 0, 0]]}
+english_curr_4 = {'english' : '¢', 'number' : 1, 'braille' : [[1, 0, 0, 1, 0, 0]]}
 english_curr = [
     english_curr_1, 
     english_curr_2, 
     english_curr_3, 
     english_curr_4]
+
+# 초성 consonants
+korean_cons_1 = {'english' : 'ㄱ', 'number' : 1, 'braille' : [[0, 0, 0, 1, 0, 0]]}
+korean_cons_2 = {'english' : 'ㄴ', 'number' : 1, 'braille' : [[1, 0, 0, 1, 0, 0]]}
+korean_cons_3 = {'english' : 'ㄷ', 'number' : 1, 'braille' : [[0, 1, 0, 1, 0, 0]]}
+korean_cons_4 = {'english' : 'ㄹ', 'number' : 1, 'braille' : [[0, 0, 0, 0, 1, 0]]}
+korean_cons_5 = {'english' : 'ㅁ', 'number' : 1, 'braille' : [[1, 0, 0, 0, 1, 0]]}
+korean_cons_6 = {'english' : 'ㅂ', 'number' : 1, 'braille' : [[0, 0, 0, 1, 1, 0]]}
+korean_cons_7 = {'english' : 'ㅅ', 'number' : 1, 'braille' : [[0, 0, 0, 0, 0, 1]]}
+korean_cons_8 = {'english' : 'ㅈ', 'number' : 1, 'braille' : [[0, 0, 0, 1, 0, 1]]}
+korean_cons_9 = {'english' : 'ㅊ', 'number' : 1, 'braille' : [[0, 0, 0, 0, 1, 1]]}
+korean_cons_10 = {'english' : 'ㅋ', 'number' : 1, 'braille' : [[1, 1, 0, 1, 0, 0]]}
+korean_cons_11 = {'english' : 'ㅌ', 'number' : 1, 'braille' : [[1, 1, 0, 0, 1, 0]]}
+korean_cons_12 = {'english' : 'ㅍ', 'number' : 1, 'braille' : [[1, 0, 0, 1, 1, 0]]}
+korean_cons_13 = {'english' : 'ㅎ', 'number' : 1, 'braille' : [[0, 1, 0, 1, 1, 0]]}
+korean_cons_14 = {'english' : '된소리표', 'number' : 1, 'braille' : [[0, 0, 0, 0, 0, 1]]}
+korean_cons = [
+    korean_cons_1,
+    korean_cons_2,
+    korean_cons_3,
+    korean_cons_4,
+    korean_cons_5,
+    korean_cons_6,
+    korean_cons_7,
+    korean_cons_8,
+    korean_cons_9,
+    korean_cons_10,
+    korean_cons_11,
+    korean_cons_12,
+    korean_cons_13,
+    korean_cons_14]
+
+# 종성 final consonants
+korean_final_cons_1 = {'english' : 'ㄱ', 'number' : 1, 'braille' : [[1, 0, 0, 0, 0, 0]]}
+korean_final_cons_2 = {'english' : 'ㄴ', 'number' : 1, 'braille' : [[0, 1, 0, 0, 1, 0]]}
+korean_final_cons_3 = {'english' : 'ㄷ', 'number' : 1, 'braille' : [[0, 0, 1, 0, 1, 0]]}
+korean_final_cons_4 = {'english' : 'ㄹ', 'number' : 1, 'braille' : [[0, 1, 0, 0, 0, 0]]}
+korean_final_cons_5 = {'english' : 'ㅁ', 'number' : 1, 'braille' : [[0, 1, 0, 0, 0, 1]]}
+korean_final_cons_6 = {'english' : 'ㅂ', 'number' : 1, 'braille' : [[1, 1, 0, 0, 0, 0]]}
+korean_final_cons_7 = {'english' : 'ㅅ', 'number' : 1, 'braille' : [[0, 0, 1, 0, 0, 0]]}
+korean_final_cons_8 = {'english' : 'ㅇ', 'number' : 1, 'braille' : [[0, 1, 1, 0, 1, 1]]}
+korean_final_cons_9 = {'english' : 'ㅈ', 'number' : 1, 'braille' : [[1, 0, 1, 0, 0, 0]]}
+korean_final_cons_10 = {'english' : 'ㅊ', 'number' : 1, 'braille' : [[0, 1, 1, 0, 0, 0]]}
+korean_final_cons_11 = {'english' : 'ㅋ', 'number' : 1, 'braille' : [[0, 1, 1, 0, 1, 0]]}
+korean_final_cons_12 = {'english' : 'ㅌ', 'number' : 1, 'braille' : [[0, 1, 1, 0, 0, 1]]}
+korean_final_cons_13 = {'english' : 'ㅍ', 'number' : 1, 'braille' : [[0, 1, 0, 0, 1, 1]]}
+korean_final_cons_14 = {'english' : 'ㅎ', 'number' : 1, 'braille' : [[0, 0, 1, 0, 1, 1]]}
+korean_final_cons = [
+    korean_final_cons_1,
+    korean_final_cons_2,
+    korean_final_cons_3,
+    korean_final_cons_4,
+    korean_final_cons_5,
+    korean_final_cons_6,
+    korean_final_cons_7,
+    korean_final_cons_8,
+    korean_final_cons_9,
+    korean_final_cons_10,
+    korean_final_cons_11,
+    korean_final_cons_12,
+    korean_final_cons_13,
+    korean_final_cons_14]
+
+# 모음 vowel
+korean_vowel_1 = {'english' : 'ㅏ', 'number' : 1, 'braille' : [[1, 1, 0, 0, 0, 1]]}
+korean_vowel_2 = {'english' : 'ㅑ', 'number' : 1, 'braille' : [[0, 0, 1, 1, 1, 0]]}
+korean_vowel_3 = {'english' : 'ㅓ', 'number' : 1, 'braille' : [[0, 1, 1, 1, 0, 0]]}
+korean_vowel_4 = {'english' : 'ㅕ', 'number' : 1, 'braille' : [[1, 0, 0, 0, 1, 1]]}
+korean_vowel_5 = {'english' : 'ㅗ', 'number' : 1, 'braille' : [[1, 0, 1, 0, 0, 1]]}
+korean_vowel_6 = {'english' : 'ㅛ', 'number' : 1, 'braille' : [[0, 0, 1, 1, 0, 1]]}
+korean_vowel_7 = {'english' : 'ㅜ', 'number' : 1, 'braille' : [[1, 0, 1, 1, 0, 0]]}
+korean_vowel_8 = {'english' : 'ㅠ', 'number' : 1, 'braille' : [[1, 0, 0, 1, 0, 1]]}
+korean_vowel_9 = {'english' : 'ㅡ', 'number' : 1, 'braille' : [[0, 1, 0, 1, 0, 1]]}
+korean_vowel_10 = {'english' : 'ㅣ', 'number' : 1, 'braille' : [[1, 0, 1, 0, 1, 0]]}
+korean_vowel_11 = {'english' : 'ㅐ', 'number' : 1, 'braille' : [[1, 1, 1, 0, 1, 0]]}
+korean_vowel_12 = {'english' : 'ㅒ', 'number' : 2, 'braille' : [[0, 0, 1, 1, 1, 0], [1, 1, 1, 0, 1, 0]]}
+korean_vowel_13 = {'english' : 'ㅔ', 'number' : 1, 'braille' : [[1, 0, 1, 1, 1, 0]]}
+korean_vowel_14 = {'english' : 'ㅖ', 'number' : 1, 'braille' : [[0, 0, 1, 1, 0, 0]]}
+korean_vowel_15 = {'english' : 'ㅘ', 'number' : 1, 'braille' : [[1, 1, 1, 0, 0, 1]]}
+korean_vowel_16 = {'english' : 'ㅙ', 'number' : 2, 'braille' : [[1, 1, 1, 0, 0, 1], [1, 1, 1, 0, 1, 0]]}
+korean_vowel_17 = {'english' : 'ㅚ', 'number' : 1, 'braille' : [[1, 0, 1, 1, 1, 1]]}
+korean_vowel_18 = {'english' : 'ㅝ', 'number' : 1, 'braille' : [[1, 1, 1, 1, 0, 0]]}
+korean_vowel_19 = {'english' : 'ㅞ', 'number' : 2, 'braille' : [[1, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 0]]}
+korean_vowel_20 = {'english' : 'ㅟ', 'number' : 2, 'braille' : [[1, 0, 1, 1, 0, 0], [1, 1, 1, 0, 1, 0]]}
+korean_vowel_21 = {'english' : 'ㅢ', 'number' : 1, 'braille' : [[0, 1, 0, 1, 1, 1]]}
+korean_vowel = [
+    korean_vowel_1,
+    korean_vowel_2,
+    korean_vowel_3,
+    korean_vowel_4,
+    korean_vowel_5,
+    korean_vowel_6,
+    korean_vowel_7,
+    korean_vowel_8,
+    korean_vowel_9,
+    korean_vowel_10,
+    korean_vowel_11,
+    korean_vowel_12,
+    korean_vowel_13,
+    korean_vowel_14,
+    korean_vowel_15,
+    korean_vowel_16,
+    korean_vowel_17,
+    korean_vowel_18,
+    korean_vowel_19,
+    korean_vowel_20,
+    korean_vowel_21]
+
+# 숫자/수학
+korean_num_1 = {'english' : '1', 'number' : 1, 'braille' : [[1, 0, 0, 0, 0, 0]]}
+korean_num_2 = {'english' : '2', 'number' : 1, 'braille' : [[1, 1, 0, 0, 0, 0]]}
+korean_num_3 = {'english' : '3', 'number' : 1, 'braille' : [[1, 0, 0, 1, 0, 0]]}
+korean_num_4 = {'english' : '4', 'number' : 1, 'braille' : [[1, 0, 0, 1, 1, 0]]}
+korean_num_5 = {'english' : '5', 'number' : 1, 'braille' : [[1, 0, 0, 0, 1, 0]]}
+korean_num_6 = {'english' : '6', 'number' : 1, 'braille' : [[1, 1, 0, 1, 0, 0]]}
+korean_num_7 = {'english' : '7', 'number' : 1, 'braille' : [[1, 1, 0, 1, 1, 0]]}
+korean_num_8 = {'english' : '8', 'number' : 1, 'braille' : [[1, 1, 0, 0, 1, 0]]}
+korean_num_9 = {'english' : '9', 'number' : 1, 'braille' : [[0, 1, 0, 1, 0, 0]]}
+korean_num_10 = {'english' : '0', 'number' : 1, 'braille' : [[0, 1, 0, 1, 1, 0]]}
+korean_num = [
+    korean_num_1, 
+    korean_num_2,
+    korean_num_3,
+    korean_num_4,
+    korean_num_5,
+    korean_num_6,
+    korean_num_7,
+    korean_num_8,
+    korean_num_9,
+    korean_num_10]
+
+korean_math_1 = {'english' : '+', 'number' : 1, 'braille' : [[0, 1, 0, 0, 0, 1]]}
+korean_math_2 = {'english' : '-', 'number' : 1, 'braille' : [[0, 0, 1, 0, 1, 0]]}
+korean_math_3 = {'english' : '*', 'number' : 1, 'braille' : [[1, 0, 0, 0, 0, 1]]}
+korean_math_4 = {'english' : '/', 'number' : 2, 'braille' : [[0, 0, 1, 1, 0, 0], [0, 0, 1, 1, 0, 0]]}
+korean_math_5 = {'english' : '=', 'number' : 2, 'braille' : [[0, 1, 0, 0, 1, 0], [0, 1, 0, 0, 1, 0]]}
+korean_math_6 = {'english' : '<', 'number' : 2, 'braille' : [[0, 0, 1, 0, 1, 0], [0, 0, 1, 0, 1, 0]]}
+korean_math_7 = {'english' : '>', 'number' : 2, 'braille' : [[0, 1, 0, 0, 0, 1], [0, 1, 0, 0, 0, 1]]}
+korean_math_8 = {'english' : '.', 'number' : 1, 'braille' : [[0, 1, 0, 0, 1, 1]]}
+korean_math = [
+    korean_math_1, 
+    korean_math_2,
+    korean_math_3,
+    korean_math_4,
+    korean_math_5,
+    korean_math_6,
+    korean_math_7,
+    korean_math_8]
+
+# Acronym/Abbreviated
+korean_acr_1 = {'english' : '가', 'number' : 1, 'braille' : [[1, 1, 0, 1, 0, 1]]}
+korean_acr_2 = {'english' : '나', 'number' : 1, 'braille' : [[1, 0, 0, 1, 0, 0]]}
+korean_acr_3 = {'english' : '다', 'number' : 1, 'braille' : [[0, 1, 0, 1, 0, 0]]}
+korean_acr_4 = {'english' : '마', 'number' : 1, 'braille' : [[1, 0, 0, 0, 1, 0]]}
+korean_acr_5 = {'english' : '바', 'number' : 1, 'braille' : [[0, 0, 0, 1, 1, 0]]}
+korean_acr_6 = {'english' : '사', 'number' : 1, 'braille' : [[1, 1, 1, 0, 0, 0]]}
+korean_acr_7 = {'english' : '자', 'number' : 1, 'braille' : [[0, 0, 0, 1, 0, 1]]}
+korean_acr_8 = {'english' : '카', 'number' : 1, 'braille' : [[1, 1, 0, 1, 0, 0]]}
+korean_acr_9 = {'english' : '타', 'number' : 1, 'braille' : [[1, 1, 0, 0, 1, 0]]}
+korean_acr_10 = {'english' : '파', 'number' : 1, 'braille' : [[1, 0, 0, 1, 1, 0]]}
+korean_acr_11 = {'english' : '하', 'number' : 1, 'braille' : [[0, 1, 0, 1, 1, 0]]}
+korean_acr_12 = {'english' : '억', 'number' : 1, 'braille' : [[1, 0, 0, 1, 1, 1]]}
+korean_acr_13 = {'english' : '언', 'number' : 1, 'braille' : [[0, 1, 1, 1, 1, 1]]}
+korean_acr_14 = {'english' : '얼', 'number' : 1, 'braille' : [[0, 1, 1, 1, 1, 0]]}
+korean_acr_15 = {'english' : '연', 'number' : 1, 'braille' : [[1, 0, 0, 0, 0, 1]]}
+korean_acr_16 = {'english' : '열', 'number' : 1, 'braille' : [[1, 1, 0, 0, 1, 1]]}
+korean_acr_17 = {'english' : '영', 'number' : 1, 'braille' : [[1, 1, 0, 1, 1, 1]]}
+korean_acr_18 = {'english' : '옥', 'number' : 1, 'braille' : [[1, 0, 1, 1, 0, 1]]}
+korean_acr_19 = {'english' : '온', 'number' : 1, 'braille' : [[1, 1, 1, 0, 1, 1]]}
+korean_acr_20 = {'english' : '옹', 'number' : 1, 'braille' : [[1, 1, 1, 1, 1, 1]]}
+korean_acr_21 = {'english' : '운', 'number' : 1, 'braille' : [[1, 1, 0, 1, 1, 0]]}
+korean_acr_22 = {'english' : '울', 'number' : 1, 'braille' : [[1, 1, 1, 1, 0, 1]]}
+korean_acr_23 = {'english' : '은', 'number' : 1, 'braille' : [[1, 0, 1, 0, 1, 1]]}
+korean_acr_24 = {'english' : '을', 'number' : 1, 'braille' : [[0, 1, 1, 1, 0, 1]]}
+korean_acr_25 = {'english' : '인', 'number' : 1, 'braille' : [[1, 1, 1, 1, 1, 0]]}
+korean_acr_26 = {'english' : '것', 'number' : 2, 'braille' : [[0, 0, 0, 1, 1, 1], [0, 1, 1, 1, 0, 0]]}
+korean_acr_27 = {'english' : 'ㅆ', 'number' : 1, 'braille' : [[0, 0, 1, 1, 0, 0]]}
+korean_acr = [
+    korean_acr_1, 
+    korean_acr_2,
+    korean_acr_3,
+    korean_acr_4,
+    korean_acr_5,
+    korean_acr_6,
+    korean_acr_7,
+    korean_acr_8,
+    korean_acr_9,
+    korean_acr_10,
+    korean_acr_11,
+    korean_acr_12,
+    korean_acr_13,
+    korean_acr_14,
+    korean_acr_15,
+    korean_acr_16,
+    korean_acr_17,
+    korean_acr_18,
+    korean_acr_19,
+    korean_acr_20,
+    korean_acr_21,
+    korean_acr_22,
+    korean_acr_23,
+    korean_acr_24,
+    korean_acr_25,
+    korean_acr_26,
+    korean_acr_27]
+
+korean_abb_1 = {'english' : '그래서', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0]]}
+korean_abb_2 = {'english' : '그러나', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [1, 0, 0, 1, 0, 0]]}
+korean_abb_3 = {'english' : '그러면', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 1, 0]]}
+korean_abb_4 = {'english' : '그러므로', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 1]]}
+korean_abb_5 = {'english' : '그런데', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [1, 0, 1, 1, 1, 0]]}
+korean_abb_6 = {'english' : '그리고', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 1]]}
+korean_abb_7 = {'english' : '그리하여', 'number' : 2, 'braille' : [[1, 0, 0, 0, 0, 0], [1, 0, 0, 0, 1, 1]]}
+korean_abb = [
+    korean_abb_1, 
+    korean_abb_2,
+    korean_abb_3,
+    korean_abb_4,
+    korean_abb_5,
+    korean_abb_6,
+    korean_abb_7]
+
+# Punctuation marks
+korean_punc_1 = {'english' : '.', 'number' : 1, 'braille' : [[0, 1, 0, 0, 1, 1]]}
+korean_punc_2 = {'english' : '?', 'number' : 1, 'braille' : [[0, 1, 1, 0, 0, 1]]}
+korean_punc_3 = {'english' : '!', 'number' : 1, 'braille' : [[0, 1, 1, 0, 1, 0]]}
+korean_punc_4 = {'english' : ',', 'number' : 1, 'braille' : [[0, 0, 0, 0, 1, 0]]}
+korean_punc_5 = {'english' : '-', 'number' : 1, 'braille' : [[0, 0, 1, 0, 0, 1]]}
+korean_punc_6 = {'english' : '~', 'number' : 2, 'braille' : [[0, 0, 1, 0, 0, 1], [0, 0, 1, 0, 0, 1]]}
+korean_punc_7 = {'english' : '*', 'number' : 2, 'braille' : [[0, 0, 1, 0, 1, 0], [0, 0, 1, 0, 1, 0]]}
+korean_punc_8 = {'english' : '"', 'number' : 1, 'braille' : [[0, 1, 1, 0, 0, 1]]}
+korean_punc_9 = {'english' : '"', 'number' : 1, 'braille' : [[0, 0, 1, 0, 1, 1]]}
+korean_punc_10 = {'english' : '\'', 'number' : 2, 'braille' : [[0, 0, 0, 0, 0, 1], [0, 1, 1, 0, 0, 1]]}
+korean_punc_11 = {'english' : '\'', 'number' : 2, 'braille' : [[0, 0, 1, 0, 1, 1], [0, 0, 0, 0, 0, 1]]}
+korean_punc_12 = {'english' : ':', 'number' : 2, 'braille' : [[0, 0, 0, 0, 1, 0], [0, 1, 0, 0, 0, 0]]}
+korean_punc_13 = {'english' : ';', 'number' : 2, 'braille' : [[0, 0, 0, 0, 1, 1], [0, 1, 1, 0, 0, 0]]}
+korean_punc_14 = {'english' : '...', 'number' : 3, 'braille' : [[0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1]]}
+korean_punc = [
+    korean_punc_1, 
+    korean_punc_2,
+    korean_punc_3,
+    korean_punc_4,
+    korean_punc_5,
+    korean_punc_6,
+    korean_punc_7,
+    korean_punc_8,
+    korean_punc_9,
+    korean_punc_10,
+    korean_punc_11,
+    korean_punc_12,
+    korean_punc_13,
+    korean_punc_14]
