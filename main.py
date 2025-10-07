@@ -155,9 +155,9 @@ class MainMenu:
                 add('Symbols', self.symbols_function)
                 add('Currency', self.currency_function)
                 add('Indicators', self.indicators_function)
-                add('Abbreviated form', self.abbreviated_form_function)
+                add('Abbreviation 1', self.abbreviated_form_function)
                 add('Math', self.math_function)
-                add('Acronym form', self.acronym_form_function)
+                add('Abbreviation 2', self.acronym_form_function)
             elif self.language == 'korean':
                 add('복습', self.reivew_function)
                 add('알파벳', self.alphabet_function)
@@ -177,8 +177,8 @@ class MainMenu:
                 add('vowel', self.vowel_function)
                 add('Number', self.kor_number_function)
                 add('Math', self.kor_math_function)
-                add('Acronym form', self.kor_acronym_form_function)
-                add('Abbreviated form', self.kor_abbreviated_form_function)
+                add('Abbreviation 1', self.kor_abbreviated_form_function)
+                add('Abbreviation 2', self.kor_acronym_form_function)
                 add('Punctuation', self.kor_punctuation_function)
             elif self.language == 'korean':
                 add('복습', self.reivew_function)
@@ -187,8 +187,8 @@ class MainMenu:
                 add('모음', self.vowel_function)
                 add('숫자', self.kor_number_function)
                 add('수학', self.kor_math_function)
-                add('약자', self.kor_acronym_form_function)
                 add('약어', self.kor_abbreviated_form_function)
+                add('약자', self.kor_acronym_form_function)
                 add('문장부호', self.kor_punctuation_function)
 
         self.content_h = add.y + PAD
@@ -1768,7 +1768,7 @@ class MainMenu:
             rect = text.get_rect(center=(WIDTH//2, PAD*9))
             self.screen.blit(text, rect)
 
-            text = self.font_med.render('Abbreviated Form', True, 'black', None)
+            text = self.font_med.render('Abbreviation 1', True, 'black', None)
             rect = text.get_rect(center=(WIDTH//2, PAD*13))
             self.screen.blit(text, rect)
         elif self.language == 'korean':
@@ -1826,7 +1826,7 @@ class MainMenu:
             rect = text.get_rect(center=(WIDTH//2, PAD*9))
             self.screen.blit(text, rect)
 
-            text = self.font_med.render('Acronym Form', True, 'black', None)
+            text = self.font_med.render('Abbreviation 2', True, 'black', None)
             rect = text.get_rect(center=(WIDTH//2, PAD*13))
             self.screen.blit(text, rect)
         elif self.language == 'korean':
@@ -2000,7 +2000,7 @@ class MainMenu:
             rect = text.get_rect(center=(WIDTH//2, PAD*9))
             self.screen.blit(text, rect)
 
-            text = self.font_med.render('Acronym form', True, 'black', None)
+            text = self.font_med.render('Abbreviation 2', True, 'black', None)
             rect = text.get_rect(center=(WIDTH//2, PAD*13))
             self.screen.blit(text, rect)
         elif self.language == 'korean':
@@ -2029,7 +2029,7 @@ class MainMenu:
             rect = text.get_rect(center=(WIDTH//2, PAD*9))
             self.screen.blit(text, rect)
 
-            text = self.font_med.render('Abbreviated form', True, 'black', None)
+            text = self.font_med.render('Abbreviation 1', True, 'black', None)
             rect = text.get_rect(center=(WIDTH//2, PAD*13))
             self.screen.blit(text, rect)
         elif self.language == 'korean':
